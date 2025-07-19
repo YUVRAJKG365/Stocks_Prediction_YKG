@@ -14,13 +14,6 @@
 - ⚙️ **User-friendly sidebar controls** for input selection  
 - 🎨 Stylish & responsive UI with custom CSS and Lottie animations
 
----
-
-## 📸 UI Preview
-
-| Forecast Dashboard | Recommendations |
-|--------------------|------------------|
-| ![forecast](https://imgur.com/YOUR_IMAGE_1.png) | ![recs](https://imgur.com/YOUR_IMAGE_2.png) |
 
 ---
 
