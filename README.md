@@ -1,4 +1,4 @@
-# 📈 DMart Demand Forecast Pro
+# 📈 Stocks Demand Forecast Pro
 
 **DMart Demand Forecast Pro** is an AI-powered inventory and sales demand forecasting system built with **Streamlit**, designed to help e-commerce and retail businesses optimize stock levels, pricing strategies, and replenishment planning. It uses machine learning models (Random Forest) and rich UI/UX for interactive forecasting.
 
