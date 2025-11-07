@@ -206,31 +206,39 @@ lottie_recommend = load_lottie_url("https://assets9.lottiefiles.com/packages/lf2
 
 # ------------------- HEADER -------------------
 st.markdown("""
-    <div class='header-container'>
+    <div class='header-container' style="background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);">
         <div style="display: flex; align-items: center; justify-content: space-between;">
             <div>
-                <h1 style="color: white; margin-bottom: 0.5rem; font-weight: 800;">DMart Demand Forecast Pro</h1>
-                <p style="color: rgba(255,255,255,0.9); margin-top: 0; font-size: 1.1rem;">AI-powered inventory optimization for e-commerce excellence by YUVRAJ KUMAR GOND</p>
+                <h1 style="color: #FFFFFF; margin-bottom: 0.5rem; font-weight: 800; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">
+                    🚀 Stocks Demand Forecast
+                </h1>
+                <p style="color: #F8F9FA; margin-top: 0; font-size: 1.2rem; font-weight: 500;">
+                    AI-powered inventory optimization for e-commerce excellence
+                </p>
+                <p style="color: #FFE66D; margin-top: 0; font-size: 1.2rem; font-weight: 600;">
+                    By YUVRAJ KUMAR GOND
+                </p>
             </div>
             <div style="width: 180px;">
                 <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:#4a6bff;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#6bffa0;stop-opacity:1" />
+                            <stop offset="0%" style="stop-color:#FFE66D;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
                         </linearGradient>
                     </defs>
-                    <rect x="10" y="15" width="45" height="35" rx="8" fill="url(#grad1)" opacity="0.9"/>
-                    <rect x="70" y="15" width="45" height="35" rx="8" fill="url(#grad1)" opacity="0.9"/>
-                    <rect x="130" y="15" width="45" height="35" rx="8" fill="url(#grad1)" opacity="0.9"/>
-                    <text x="32" y="40" font-family="Arial" font-size="16" fill="white" font-weight="bold" text-anchor="middle">DM</text>
-                    <text x="92" y="40" font-family="Arial" font-size="16" fill="white" font-weight="bold" text-anchor="middle">ART</text>
-                    <text x="152" y="40" font-family="Arial" font-size="16" fill="white" font-weight="bold" text-anchor="middle">PRO</text>
+                    <rect x="10" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
+                    <rect x="70" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
+                    <rect x="130" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
+                    <text x="32" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">DM</text>
+                    <text x="92" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">ART</text>
+                    <text x="152" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">PRO</text>
                 </svg>
             </div>
         </div>
     </div>
 """, unsafe_allow_html=True)
+
 
 # ------------------- LOAD MODEL -------------------
 @st.cache_resource
