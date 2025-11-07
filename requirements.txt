@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+joblib==1.4.2
+scikit-learn==1.6.1
+matplotlib
+plotly
+streamlit-lottie
+requests
