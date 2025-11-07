@@ -210,7 +210,7 @@ st.markdown("""
         <div style="display: flex; align-items: center; justify-content: space-between;">
             <div>
                 <h1 style="color: white; margin-bottom: 0.5rem; font-weight: 800;">DMart Demand Forecast Pro</h1>
-                <p style="color: rgba(255,255,255,0.9); margin-top: 0; font-size: 1.1rem;">AI-powered inventory optimization for e-commerce excellence</p>
+                <p style="color: rgba(255,255,255,0.9); margin-top: 0; font-size: 1.1rem;">AI-powered inventory optimization for e-commerce excellence by YUVRAJ KUMAR GOND</p>
             </div>
             <div style="width: 180px;">
                 <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
