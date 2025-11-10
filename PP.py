@@ -13,7 +13,7 @@ import requests
 
 # ------------------- CONFIG -------------------
 st.set_page_config(
-    page_title="DMart Demand Forecast Pro",
+    page_title="Stocks Demand Forecast",
     layout="wide",
     page_icon="📈",
     initial_sidebar_state="expanded"
@@ -230,15 +230,14 @@ st.markdown("""
                     <rect x="10" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
                     <rect x="70" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
                     <rect x="130" y="15" width="45" height="35" rx="8" fill="url(#grad1)" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.2))"/>
-                    <text x="32" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">DM</text>
-                    <text x="92" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">ART</text>
+                    <text x="32" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">STK</text>
+                    <text x="92" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">PRD</text>
                     <text x="152" y="40" font-family="Arial" font-size="16" fill="#2F4858" font-weight="bold" text-anchor="middle">PRO</text>
                 </svg>
             </div>
         </div>
     </div>
 """, unsafe_allow_html=True)
-
 
 # ------------------- LOAD MODEL -------------------
 @st.cache_resource
@@ -620,7 +619,7 @@ else:
     with col1:
         st.markdown("""
             <div style="background: white; border-radius: 16px; padding: 30px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); margin-bottom: 25px;">
-                <h2 style="color: var(--primary); margin-top: 0;">Welcome to DMart Demand Forecast Pro</h2>
+                <h2 style="color: var(--primary); margin-top: 0;">Welcome to Stocks Demand Forecast</h2>
                 <p style="color: #555; line-height: 1.7; font-size: 1.05rem;">
                     Our AI-powered platform helps you optimize inventory levels, reduce waste, and maximize profits 
                     through accurate demand forecasting. Get started by entering your product details in the sidebar 
@@ -688,8 +687,8 @@ st.markdown("""
             <div style="margin: 0 15px;"><a href="#" style="color: #7f8c8d; text-decoration: none;">API</a></div>
             <div style="margin: 0 15px;"><a href="#" style="color: #7f8c8d; text-decoration: none;">Support</a></div>
         </div>
-        <p style="margin-bottom: 0.5rem;">© 2025 DMart Demand Forecast Pro | Enterprise Inventory Optimization System</p>
-        <p style="margin: 0;">📞 <a href="tel:+18005551234" style="color: #7f8c8d; text-decoration: none;">+1 (800) 555-1234</a> | 
-        ✉️ <a href="mailto:support@dmartpro.com" style="color: #7f8c8d; text-decoration: none;">support@dmartpro.com</a></p>
+        <p style="margin-bottom: 0.5rem;">© 2025 Stocks Demand Forecast | Enterprise Inventory Optimization System</p>
+        <p style="margin: 0;">📞 <a href="tel:+91 84870 47066" style="color: #7f8c8d; text-decoration: none;">+91 84870 47066</a> | 
+        ✉️ <a href="mailto:gondyuvraj85@gmail.com" style="color: #7f8c8d; text-decoration: none;">gondyuvraj85@gmail.com</a></p>
     </div>
 """, unsafe_allow_html=True)
